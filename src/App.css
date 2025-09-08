@@ -1,0 +1,134 @@
+/* Reset sederhana */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.App {
+  width: 100%;
+  height: 100vh;
+}
+
+.login-container {
+  display: flex;
+  height: 100vh;
+}
+
+/* Bagian Kiri */
+.login-left {
+  flex: 1;
+  background: #f4b400;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.login-content {
+  text-align: center;
+}
+
+.login-content h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.login-image {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 10px;
+}
+
+/* Bagian Kanan */
+.login-right {
+  flex: 1;
+  background: #0c2d57;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.login-right h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.login-right p {
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+  color: #e0e0e0;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.login-form input {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+.btn-login {
+  background: #f4b400;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-login:hover {
+  background: #d89e00;
+}
+
+.login-or {
+  text-align: center;
+  margin: 15px 0;
+  font-size: 0.9rem;
+  color: #ddd;
+}
+
+.login-socials {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.btn-google,
+.btn-apple {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn-google {
+  background: white;
+  color: #333;
+}
+
+.btn-apple {
+  background: #333;
+  color: white;
+}
+
+.register-text {
+  text-align: center;
+  font-size: 0.85rem;
+}
+
+.register-text a {
+  color: #f4b400;
+  text-decoration: none;
+}
