@@ -28,7 +28,7 @@ export default function Talenthub() {
 
             const tick = (ts) => {
             if (!lastTs) lastTs = ts;
-            const dt = (ts - lastTs) / 1000;  // detik sejak frame terakhir
+            const dt = (ts - lastTs) / 600;  // detik sejak frame terakhir
             lastTs = ts;
 
             if (!isPausedRef.current) {
