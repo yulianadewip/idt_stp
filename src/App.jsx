@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Login from "./pages/Login";
 import Registrasi from "./pages/Registrasi";
-import Talenthub from "./pages/Talenthub";
+import Talenthub from "./pages/Talenthub/Talenthub";
 
 
 
